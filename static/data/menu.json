@@ -1,0 +1,290 @@
+[
+	{
+		"name": "登录界面",
+		"path": "/login",
+		"component": "Login",
+		"id": "16",
+		"pid": "0",
+		"type": "100",
+		"hidden":"true"
+	},
+	{
+		"name": "防汛模块",
+		"path": "/",
+		"component": "App",
+		"id": "8",
+		"pid": "0",
+		"iconCls": "el-icon-star-on",
+		"type": "100",
+		"redirect": "/dotRain"
+	},
+	{
+		"name": "点雨量",
+		"path": "/dotRain",
+		"component": "fx/dotRain/DotRain",
+		"id": "8.1",
+		"pid": "8",
+		"iconCls": "el-icon-message",
+		"type": "100"
+	},
+	{
+		"name": "面雨量",
+		"path": "/regionRain",
+		"component": "fx/RegionRain",
+		"id": "8.2",
+		"pid": "8",
+		"iconCls": "el-icon-message",
+		"type": "100"
+	},
+	{
+		"name": "调水实时监控",
+		"path": "/dsrealtime",
+		"component": "fx/dsrealtime/DsRealTime",
+		"id": "8.5",
+		"pid": "8",
+		"iconCls": "",
+		"type": "100"
+	},
+	{
+		"name": "首页",
+		"path": "/index",
+		"component": "fx/Hello",
+		"id": "8.6",
+		"pid": "8",
+		"iconCls": "",
+		"type": "100",
+		"hidden": "true"
+	},
+	{
+		"name": "组织机构",
+		"path": "/",
+		"component": "App",
+		"id": "1",
+		"pid": "0",
+		"iconCls": "el-icon-star-on",
+		"type": "100"
+	},
+	{
+		"name": "组织机构管理",
+		"path": "/org",
+		"component": "fx/Hello",
+		"id": "1.2",
+		"pid": "1",
+		"iconCls": "el-icon-message",
+		"type": "100"
+	},
+	{
+		"name": "岗位管理",
+		"path": "/post",
+		"component": "fx/Hello",
+		"id": "1.3",
+		"pid": "1",
+		"iconCls": "el-icon-message",
+		"type": "100"
+	},
+	{
+		"name": "角色管理",
+		"path": "/role",
+		"component": "fx/Hello",
+		"id": "1.4",
+		"pid": "1",
+		"iconCls": "el-icon-message",
+		"type": "100"
+	},
+	{
+		"name": "平台资源",
+		"path": "/",
+		"component": "App",
+		"id": "2",
+		"pid": "0",
+		"iconCls": "el-icon-upload",
+		"type": "100"
+	},
+	{
+		"name": "应用系统",
+		"path": "/app",
+		"component": "fx/Hello",
+		"id": "1.3",
+		"pid": "2",
+		"type": "100",
+		"disabled": "true"
+	},
+	{
+		"name": "数据资源",
+		"path": "/data",
+		"component": "fx/Hello",
+		"id": "1.4",
+		"pid": "2",
+		"type": "100",
+		"disabled": "true"
+	},
+	{
+		"name": "服务资源",
+		"path": "/update",
+		"component": "fx/Hello",
+		"id": "1.5",
+		"pid": "2",
+		"type": "100",
+		"disabled": "true"
+	},
+	{
+		"name": "文档资源",
+		"path": "/sta",
+		"component": "fx/Hello",
+		"id": "1.7",
+		"pid": "2",
+		"type": "100",
+		"disabled": "true"
+	},
+	{
+		"name": "审核授权",
+		"path": "/",
+		"component": "App",
+		"id": "3",
+		"pid": "0",
+		"iconCls": "el-icon-circle-check",
+		"type": "100"
+	},
+	{
+		"name": "服务申请审核",
+		"path": "/sq",
+		"component": "fx/Hello",
+		"id": "1.8",
+		"pid": "3",
+		"type": "100"
+	},
+	{
+		"name": "服务统一授权",
+		"path": "/ty",
+		"component": "fx/Hello",
+		"id": "1.8",
+		"pid": "3",
+		"type": "100"
+	},
+	{
+		"name": "平台监控",
+		"path": "/",
+		"component": "App",
+		"id": "5",
+		"pid": "0",
+		"iconCls": "el-icon-info",
+		"type": "100"
+	},
+	{
+		"name": "服务监控",
+		"path": "/jk",
+		"component": "fx/Hello",
+		"id": "5.1",
+		"pid": "5",
+		"type": "100"
+	},
+	{
+		"name": "服务请求监控",
+		"path": "/qj",
+		"component": "fx/Hello",
+		"id": "5.2",
+		"pid": "5",
+		"type": "100"
+	},
+	{
+		"name": "报表统计",
+		"path": "/",
+		"component": "App",
+		"id": "6",
+		"pid": "0",
+		"iconCls": "el-icon-date",
+		"type": "100",
+		"hidden":"true"
+	},
+	{
+		"name": "应用资源统计",
+		"path": "/zy",
+		"component": "fx/Hello",
+		"id": "6.1",
+		"pid": "6",
+		"type": "100"
+	},
+	{
+		"name": "平台支撑统计",
+		"path": "/zc",
+		"component": "fx/Hello",
+		"id": "6.2",
+		"pid": "6",
+		"type": "100"
+	},
+	{
+		"name": "服务请求统计",
+		"path": "/zz",
+		"component": "fx/Hello",
+		"id": "6.3",
+		"pid": "6",
+		"type": "100"
+	},
+	{
+		"name": "跳转测试",
+		"path": "/",
+		"component": "App",
+		"id": "4",
+		"pid": "0",
+		"iconCls": "el-icon-setting",
+		"type": "100",
+		"leaf": "true"
+	},
+	{
+		"name": "打开百度",
+		"path": "/golink",
+		"component": "http://www.baidu.com/",
+		"id": "4.1",
+		"pid": "4",
+		"type": "300"
+	},
+	{
+		"name": "系统管理",
+		"path": "/",
+		"component": "App",
+		"id": "7",
+		"pid": "0",
+		"iconCls": "el-icon-setting",
+		"type": "100"
+	},
+	{
+		"name": "菜单管理",
+		"path": "/menu",
+		"component": "fx/Hello",
+		"id": "7.1",
+		"pid": "7",
+		"type": "100"
+	},
+	{
+		"name": "系统消息",
+		"path": "/rumei",
+		"component": "fx/Hello",
+		"id": "7.2",
+		"pid": "7",
+		"type": "100"
+	},
+	{
+		"name": "开发商管理",
+		"path": "/company",
+		"component": "fx/Hello",
+		"id": "7.3",
+		"pid": "7",
+		"type": "100"
+	},
+	{
+		"name": "修改密码",
+		"path": "/dd",
+		"component": "fx/Hello",
+		"id": "7.4",
+		"pid": "7",
+		"type": "100"
+	},
+	{
+		"name": "数据库",
+		"path": "/data",
+		"component": "fx/Hello",
+		"id": "7.5",
+		"pid": "7",
+		"type": "100"
+	}
+]
